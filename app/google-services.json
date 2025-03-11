@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943168612252",
+    "project_id": "dostopr-7260e",
+    "storage_bucket": "dostopr-7260e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943168612252:android:7d265e97f002ff58008a59",
+        "android_client_info": {
+          "package_name": "com.example.ghuyo9kli"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe2UrpIp98Vdo0UA7wOyErYMAmxx49MyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
