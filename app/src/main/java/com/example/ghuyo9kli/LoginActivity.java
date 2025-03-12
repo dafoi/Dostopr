@@ -1,15 +1,24 @@
 package com.example.ghuyo9kli;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.google.firebase.Firebase;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -26,10 +35,11 @@ public class LoginActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         FirebaseAuth mAuth = FirebaseAuth.getInstance();
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if(currentUser != null){
-            goNext();
+            //goNext();
         }
         LogIn_email = findViewById(R.id.editEmail);
         LogIn_password = findViewById(R.id.editPassword);
@@ -56,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 mAuth.signInWithEmailAndPassword(LogIn_email.getText().toString(),
                         LogIn_password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
+                   // @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Готово!",Toast.LENGTH_SHORT).show();
@@ -70,10 +80,15 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+        findViewById(R.id.registerButton).setOnClickListener(v -> goRegister());
     }
 
     public void goNext(){
         startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        finish();
+    }
+    public void goRegister(){
+        startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
         finish();
     }
 
