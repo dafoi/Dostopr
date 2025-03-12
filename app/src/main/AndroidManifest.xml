@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Ghuyo9kli"
         tools:targetApi="31">
         <activity
+            android:name=".HramSpasNaKroviActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JermitajActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VdnhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TretgalerActivity"
+            android:exported="false" />
+        <activity
             android:name=".bolshoiteatrActivity"
             android:exported="false" />
         <activity
