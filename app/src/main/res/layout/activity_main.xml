@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/frameLayout"
         android:layout_width="380dp"
         android:layout_height="125dp"
         android:layout_marginStart="15dp"
@@ -29,7 +30,9 @@
             android:layerType="software"
             android:text="Достопримечательности"
             android:textAlignment="center"
+            android:textAllCaps="false"
             android:textSize="30sp"
             android:textStyle="bold" />
     </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
