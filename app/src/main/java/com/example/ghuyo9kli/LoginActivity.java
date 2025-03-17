@@ -81,6 +81,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         findViewById(R.id.registerButton).setOnClickListener(v -> goRegister());
+        findViewById(R.id.nazad).setOnClickListener(v -> goBack());
     }
 
     public void goNext(){
@@ -89,6 +90,9 @@ public class LoginActivity extends AppCompatActivity {
     }
     public void goRegister(){
         startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+        finish();
+    }public void goBack(){
+        startActivity(new Intent(LoginActivity.this,LoadingActivity.class));
         finish();
     }
 

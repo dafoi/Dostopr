@@ -8,13 +8,9 @@
     tools:context=".RusisaActivity">
 
     <FrameLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:foregroundGravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center">
 
         <ImageView
             android:id="@+id/фон"
@@ -42,8 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:foregroundGravity="center"
-                    android:gravity="center"
+                    android:gravity="center_horizontal"
                     android:orientation="vertical">
 
                     <ImageView
@@ -80,42 +75,42 @@
                                     android:orientation="vertical">
 
                                     <ImageView
-                                        android:id="@+id/gyym"
+                                        android:id="@+id/imageView17"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"
                                         app:srcCompat="@drawable/gym" />
 
                                     <ImageView
-                                        android:id="@+id/bolshoiteatr"
+                                        android:id="@+id/imageView18"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"
                                         app:srcCompat="@drawable/bolsoiteatr" />
 
                                     <ImageView
-                                        android:id="@+id/trgalereia"
+                                        android:id="@+id/imageView19"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"
                                         app:srcCompat="@drawable/tretgaler" />
 
                                     <ImageView
-                                        android:id="@+id/vdnh"
+                                        android:id="@+id/imageView20"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"
                                         app:srcCompat="@drawable/vdnh" />
 
                                     <ImageView
-                                        android:id="@+id/jermitaj"
+                                        android:id="@+id/imageView21"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"
                                         app:srcCompat="@drawable/jermitaj" />
 
                                     <ImageView
-                                        android:id="@+id/spas"
+                                        android:id="@+id/imageView22"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="10dp"

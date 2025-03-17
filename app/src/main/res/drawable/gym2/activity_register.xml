@@ -86,13 +86,6 @@
             android:foregroundGravity="center"
             android:text="Alredy have an account?Sign in"
             android:textColor="@color/white" />
-
-        <ImageButton
-            android:id="@+id/nazadFromRegister"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/nazad" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

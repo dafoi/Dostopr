@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class RusisaActivity extends AppCompatActivity {
+public class RusisaActivity extends svo {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +20,8 @@ public class RusisaActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        findViewById(R.id.gyym).setOnClickListener(v -> changeActivity(this,GymActivity.class));
+
+
     }
 }

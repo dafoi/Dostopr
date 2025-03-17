@@ -52,7 +52,7 @@
       </FrameLayout>
 
       <ImageView
-          android:id="@+id/goRussia"
+          android:id="@+id/Раздел_Россия"
           android:layout_width="361dp"
           android:layout_height="103dp"
           android:layout_gravity="center"

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -18,9 +19,10 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class RegisterActivity extends AppCompatActivity {
+
+public class RegisterActivity extends svo {
     EditText editEmail, editPassword, editPassword2;
-    Button gotoLoginButton, registerButton;
+    ImageButton  registerButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,15 +79,20 @@ public class RegisterActivity extends AppCompatActivity {
         editEmail = findViewById(R.id.editEmailRegister);
         editPassword = findViewById(R.id.editPasswordRegister);
         editPassword2 = findViewById(R.id.editPasswordRegister2);
-        gotoLoginButton = findViewById(R.id.gotoLoginButton);
+        findViewById(R.id.gotoLoginButton).setOnClickListener(v -> gotoLogin());
         registerButton = findViewById(R.id.bombaclat);
+        findViewById(R.id.nazadFromRegister).setOnClickListener(v-> goBack());
         //Events
-        gotoLoginButton.setOnClickListener(v -> gotoLogin());
+
         registerButton.setOnClickListener(v -> register());
     }
     //Not implemented yet, should take you to main menu
     public void goNext(){
-
+        changeActivity(this, LoadingActivity.class);
     }
-
+    public void goBack(){
+//        startActivity(new Intent(RegisterActivity.this,LoadingActivity.class));
+//        finish();
+        changeActivity(this, LoadingActivity.class);
+    }
 }
