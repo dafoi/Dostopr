@@ -127,6 +127,22 @@
 
                     </FrameLayout>
 
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal">
+
+                        <Button
+                            android:id="@+id/_nazad"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:insetLeft="80dp"
+                            android:insetTop="20dp"
+                            android:insetRight="80dp"
+                            android:text="назад" />
+
+                    </FrameLayout>
+
                 </LinearLayout>
 
             </FrameLayout>

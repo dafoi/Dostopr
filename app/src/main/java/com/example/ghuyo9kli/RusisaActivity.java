@@ -21,6 +21,12 @@ public class RusisaActivity extends svo {
             return insets;
         });
         findViewById(R.id.gyym).setOnClickListener(v -> changeActivity(this,GymActivity.class));
+        findViewById(R.id.bolshoiteatr).setOnClickListener(v -> changeActivity(this, bolshoiteatrActivity.class));
+        findViewById(R.id.jermitaj).setOnClickListener(v -> changeActivity(this, JermitajActivity.class));
+        findViewById(R.id.spas).setOnClickListener(v -> changeActivity(this, HramSpasNaKroviActivity.class));
+        findViewById(R.id.trgalereia).setOnClickListener(v -> changeActivity(this, TretgalerActivity.class));
+        findViewById(R.id.vdnh).setOnClickListener(v -> changeActivity(this,VdnhActivity.class));
+
 
 
     }

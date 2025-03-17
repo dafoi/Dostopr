@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class HramSpasNaKroviActivity extends AppCompatActivity {
+public class HramSpasNaKroviActivity extends svo {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +20,6 @@ public class HramSpasNaKroviActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , RusisaActivity.class));
     }
 }
