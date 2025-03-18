@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bolshoiteatrActivity">
+    tools:context=".SeviliaActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/bolsoiteatr" />
+                    app:srcCompat="@drawable/sssevilia" />
 
             </FrameLayout>
 
@@ -70,11 +70,13 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/imagesbt3" />
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sev3" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -83,31 +85,35 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
                             android:clickable="true"
-                            android:text="Купить билет на представление — целый квест, но есть и другой способ увидеть Большой театр изнутри: для туристов здесь проводят экскурсии: как групповые, так и индивидуальные. Узнать о них подробнее можно на официальном сайте театра. "
+                            android:text="Севилью основали финикийцы в 7-м веке до нашей эры. Спустя четыреста лет она была завоевана римлянами и стала важным торговым центром римской провинции Бетика. В 711 году арабы захватили город и удерживали его больше пяти столетий. В 13-м веке Севилью отвоевал кастильский король Фердинанд III в ходе Реконкисты. "
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt2" />
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sev" />
 
                         <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
-                            android:layout_marginRight="30dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
                             android:gravity="center"
-                            android:text="Вас проведут по всем залам, расскажут об истории легендарной сцены, покажут поражающие воображение золотые люстры, огромные окна и расписные потолки. В тур входит посещение театрального музея, где представлены костюмы артистов, интересные документы и артефакты. Экспозиция меняется несколько раз в год."
+                            android:text="Длительный период восточного правления отразился на архитектуре города. Многие здания здесь были построены в уникальном стиле мудехар, который сочетает исламские и христианские элементы. Севилья славится самыми изящными примерами мудехара, и хотя бы только ради них стоит приехать в город. Расскажу, какие красивыеместа посмотреть в столице Андалусии."
                             android:textAlignment="viewStart"
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt" />
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sev2" />
                     </LinearLayout>
                 </ScrollView>
 

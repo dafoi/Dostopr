@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bolshoiteatrActivity">
+    tools:context=".HramSvatoiFamilyActivity2">
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/bolsoiteatr" />
+                    app:srcCompat="@drawable/hhhramsvatogosemeistva" />
 
             </FrameLayout>
 
@@ -70,11 +70,13 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/imagesbt3" />
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/hramsviatsem" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -83,31 +85,56 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
                             android:clickable="true"
-                            android:text="Купить билет на представление — целый квест, но есть и другой способ увидеть Большой театр изнутри: для туристов здесь проводят экскурсии: как групповые, так и индивидуальные. Узнать о них подробнее можно на официальном сайте театра. "
+                            android:text="Саграда Фамилия (Basilica de la Sagrada Família) — один из самых известных и впечатляющих архитектурных шедевров Барселоны, созданный великим архитектором Антонио Гауди, и визитная карточка города. Строительство 172-метровой базилики началось в 1882 году и продолжается до сих пор. Превратившееся в своеобразный бренд строительство собора сделала его символом вечного созидания. "
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt2" />
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/hramsviatsem2" />
 
                         <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="30dp"
-                            android:layout_marginRight="30dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
                             android:gravity="center"
-                            android:text="Вас проведут по всем залам, расскажут об истории легендарной сцены, покажут поражающие воображение золотые люстры, огромные окна и расписные потолки. В тур входит посещение театрального музея, где представлены костюмы артистов, интересные документы и артефакты. Экспозиция меняется несколько раз в год."
+                            android:text="В Саграда Фамилия есть три основных фасада, каждый из которых символизирует ключевые моменты жизни Христа. Фасад Рождества (Fachada del Nacimiento) изображает рождение Иисуса Христа. Он выполнен в мягком стиле с детализированной символикой. Эта часть храма украшена фигурами животных, растений и библейских персонажей. "
                             android:textAlignment="viewStart"
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt" />
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/hramsviatsem3" />
+
+                        <TextView
+                            android:id="@+id/textView12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
+                            android:gravity="center"
+                            android:text="У базилики двенадцать башен, символизирующих апостолов, и четыре башни, посвящённые евангелистам. И одна башня в честь Девы Марии. Завершить строительство Саграда Фамилия планируется в 2026 году. До этого срока закончат центральную башню, посвящённую Иисусу Христу, высотой 172 метра, а также барельефы фасада Славы. "
+                            android:textAlignment="viewStart"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop4"
+                            android:layout_width="match_parent"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/hramsviatsem4" />
                     </LinearLayout>
                 </ScrollView>
 

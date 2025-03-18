@@ -41,6 +41,10 @@ public class MainMenuActivity extends svo {
         );
         findViewById(R.id.goRussia).setOnClickListener(v-> {
             changeActivity(this,RusisaActivity.class);
+
+        });
+        findViewById(R.id.goSpany).setOnClickListener(v-> {
+            changeActivity(this,SpanyRazdelActivity.class);
         });
 
     }

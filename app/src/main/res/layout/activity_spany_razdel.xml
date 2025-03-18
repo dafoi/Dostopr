@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RusisaActivity">
+    tools:context=".SpanyRazdelActivity">
 
     <FrameLayout
         android:layout_width="409dp"
@@ -51,7 +51,7 @@
                         android:layout_width="370dp"
                         android:layout_height="110dp"
                         android:layout_marginTop="10dp"
-                        app:srcCompat="@drawable/razdel" />
+                        app:srcCompat="@drawable/spanybutton" />
 
                     <FrameLayout
                         android:layout_width="match_parent"
@@ -94,42 +94,42 @@
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/gggym" />
+                                                app:srcCompat="@drawable/hhhramsvatogosemeistva" />
 
                                             <ImageView
                                                 android:id="@+id/gotKvartal"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/bbbolshoiteatr" />
+                                                app:srcCompat="@drawable/gggot" />
 
                                             <ImageView
                                                 android:id="@+id/MyseiPicaso"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/tttrgaler" />
+                                                app:srcCompat="@drawable/mmmyseipicaso" />
 
                                             <ImageView
                                                 android:id="@+id/Sevilia"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/vvvdnh" />
+                                                app:srcCompat="@drawable/sssevilia" />
 
                                             <ImageView
                                                 android:id="@+id/PISpany"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/jjjeremi" />
+                                                app:srcCompat="@drawable/pppispany" />
 
                                             <ImageView
                                                 android:id="@+id/KorolDvorecAlcasar"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/hhhramspasnakrovi" />
+                                                app:srcCompat="@drawable/aaalkasar" />
 
                                         </LinearLayout>
                                     </ScrollView>
@@ -172,5 +172,4 @@
         </LinearLayout>
 
     </FrameLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

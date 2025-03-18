@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlSpanyActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/original" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/desain6" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="15dp"
+                    app:srcCompat="@drawable/pppispany" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="518dp">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="540dp"
+                    app:srcCompat="@drawable/desain5" />
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sver" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:clickable="true"
+                            android:text="Один из символов города, впечатляющий архитектурный ансамбль и одно из самых популярных туристических мест в мире. Площадь Испании (Plaza de España) спроектирована и построена специально к Иберо-американской выставке 1929 года. Архитектором был Анибаль Гонсалес, который хотел подчеркнуть многогранность истории, культурного богатства и колониального наследия бывшей империи."
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sver2" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
+                            android:gravity="center"
+                            android:text="Полукруглая форма выбрана неслучайно — она символизирует объятия Испании, принявшей власть над колонией в Латинской Америке. Площадь развёрнута к реке Гвадалквивир, по которой отправлялись в плавание сначала финикийцы, а затем Христофор Колумб. В 1519 году по Гвадалквивир начал своё кругосветное путешествие Фернан Магеллан. "
+                            android:textAlignment="viewStart"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sver3" />
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
+                            android:gravity="center"
+                            android:text="Вокруг площади проходит канал длиной около 500 метров, над которым проложены четыре небольших моста. Каждый мост символизирует одно из четырёх исторических королевств Испании — Кастилию, Леон, Арагон и Наварру."
+                            android:textAlignment="viewStart"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop5"
+                            android:layout_width="match_parent"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sver4" />
+
+                        <TextView
+                            android:id="@+id/textView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
+                            android:gravity="center"
+                            android:text="Вдоль здания стоят 48 кафельных скамеек, украшенных цветной керамикой. Каждая из них посвящена одной из провинций Испании и украшена гербом. В павильонах площади Испании расположены государственные учреждения и проходят временные выставки. "
+                            android:textAlignment="viewStart"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop6"
+                            android:layout_width="match_parent"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/sver5" />
+                    </LinearLayout>
+                </ScrollView>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/_nazad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:insetLeft="80dp"
+                    android:insetTop="20dp"
+                    android:insetRight="80dp"
+                    android:text="назад" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

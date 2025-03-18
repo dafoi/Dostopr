@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bolshoiteatrActivity">
+    tools:context=".MyseiPicasoActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/bolsoiteatr" />
+                    app:srcCompat="@drawable/mmmyseipicaso" />
 
             </FrameLayout>
 
@@ -70,11 +70,13 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/imagesbt3" />
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/myseip2" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -83,31 +85,37 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
                             android:clickable="true"
-                            android:text="Купить билет на представление — целый квест, но есть и другой способ увидеть Большой театр изнутри: для туристов здесь проводят экскурсии: как групповые, так и индивидуальные. Узнать о них подробнее можно на официальном сайте театра. "
+                            android:text="Гениальный представитель кубизма и сюрреализма, испанский художник Пабло Пикассо большую часть юности провёл в Барселоне. Город стал для молодого артиста одним из первых больших источников вдохновения перед переездом в Париж, где он состоялся как признанный мастер. Музей Пикассо в Барселоне был основан в 1963 году ещё при жизни художника по инициативе друга Пабло Хайме Сабартеса. "
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt2" />
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/myseip" />
 
                         <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
                             android:gravity="center"
-                            android:text="Вас проведут по всем залам, расскажут об истории легендарной сцены, покажут поражающие воображение золотые люстры, огромные окна и расписные потолки. В тур входит посещение театрального музея, где представлены костюмы артистов, интересные документы и артефакты. Экспозиция меняется несколько раз в год."
+                            android:text="Всего в музее хранится около 4000 работ Пикассо, преимущественно ранних периодов творчества. Среди них — «Портрет тёти Пепы» (1896), которую художник написал в 15 лет. Из поздних работ представлена серия картин-вариаций на тему полотна Диего Веласкеса «Менины», которую Пикассо перерисовал в стиле кубизма. "
                             android:textAlignment="viewStart"
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt" />
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/myseip3" />
                     </LinearLayout>
                 </ScrollView>
 

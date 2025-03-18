@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bolshoiteatrActivity">
+    tools:context=".KorolDvorAlcasarActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/bolsoiteatr" />
+                    app:srcCompat="@drawable/aaalkasar" />
 
             </FrameLayout>
 
@@ -70,11 +70,13 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/imagesbt3" />
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/korolovsky" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -83,31 +85,58 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
                             android:clickable="true"
-                            android:text="Купить билет на представление — целый квест, но есть и другой способ увидеть Большой театр изнутри: для туристов здесь проводят экскурсии: как групповые, так и индивидуальные. Узнать о них подробнее можно на официальном сайте театра. "
+                            android:text="Один из самых ярких примеров стиля мудехар в Испании. Первоначально он был построен в 10-м веке как мавританская крепость, когда Севилья находилась под контролем Омейядского халифата Кордовы. После захвата Севильи в 13-м веке королём Фердинандом III Кастильский дворец стал резиденцией испанских монархов. Позже король Педро I Кастильский в 14-м веке провёл масштабную реконструкцию дворца, поручив её мусульманским мастерам, что привело к созданию уникального архитектурного ансамбля."
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt2" />
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/korolovsky3" />
 
                         <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
                             android:gravity="center"
-                            android:text="Вас проведут по всем залам, расскажут об истории легендарной сцены, покажут поражающие воображение золотые люстры, огромные окна и расписные потолки. В тур входит посещение театрального музея, где представлены костюмы артистов, интересные документы и артефакты. Экспозиция меняется несколько раз в год."
+                            android:text="Фасад Алькасара выполнен в классическом исламском стиле с характерными орнаментами, мозаиками и резными арками. Внутри здания несколько изящных залов и дворов. "
                             android:textAlignment="viewStart"
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt" />
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/korolovsky2" />
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
+                            android:gravity="center"
+                            android:text="Интерьеры дворца украшены керамическими плитками «азулехос» с восточными геометрическими и растительными узорами. Во внутреннем Зале обедов арабские мотивы переплетаются с готическими элементами, появившимися после реконструкции.   "
+                            android:textAlignment="viewStart"
+                            android:textSize="20sp" />
+
+                        <ImageView
+                            android:id="@+id/gymimagesdop7"
+                            android:layout_width="match_parent"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/korolovsky4" />
                     </LinearLayout>
                 </ScrollView>
 

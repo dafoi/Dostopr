@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Ghuyo9kli"
         tools:targetApi="31">
         <activity
+            android:name=".KorolDvorAlcasarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlSpanyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeviliaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyseiPicasoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GotKvartalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HramSvatoiFamilyActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SpanyRazdelActivity"
+            android:exported="false" />
+        <activity
             android:name=".temp"
             android:exported="false" />
         <activity

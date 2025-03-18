@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".bolshoiteatrActivity">
+    tools:context=".GotKvartalActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout2"
@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="110dp"
                     android:layout_marginTop="15dp"
-                    app:srcCompat="@drawable/bolsoiteatr" />
+                    app:srcCompat="@drawable/gggot" />
 
             </FrameLayout>
 
@@ -70,11 +70,13 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
+                            android:id="@+id/gymimagesdop"
+                            android:layout_width="383dp"
+                            android:layout_height="199dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/imagesbt3" />
+                            android:layout_marginTop="20dp"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/otkvartal" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -83,31 +85,37 @@
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
                             android:clickable="true"
-                            android:text="Купить билет на представление — целый квест, но есть и другой способ увидеть Большой театр изнутри: для туристов здесь проводят экскурсии: как групповые, так и индивидуальные. Узнать о них подробнее можно на официальном сайте театра. "
+                            android:text="Историческое ядро Барселоны, настоящий лабиринт времени, где соседствуют памятники архитектуры разных эпох. Район начал формироваться ещё во времена Римской империи, когда на месте Барселоны существовала крепость Барсино, основанная в 15 веке до н. э. В её центре находился форум (когда-то центральный рынок, а теперь площадь, занимающая центр древней части города), окружённый мощными стенами, фрагменты которых до сих пор можно найти в Готическом квартале. "
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView4"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt2" />
+                            android:id="@+id/gymimagesdop2"
+                            android:layout_width="379dp"
+                            android:layout_height="223dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/otkvartal2" />
 
                         <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
+                            android:id="@+id/textView2"
+                            android:layout_width="354dp"
                             android:layout_height="wrap_content"
+                            android:layout_gravity="center"
                             android:layout_marginLeft="30dp"
                             android:layout_marginRight="30dp"
+                            android:foregroundGravity="center_vertical|center"
                             android:gravity="center"
-                            android:text="Вас проведут по всем залам, расскажут об истории легендарной сцены, покажут поражающие воображение золотые люстры, огромные окна и расписные потолки. В тур входит посещение театрального музея, где представлены костюмы артистов, интересные документы и артефакты. Экспозиция меняется несколько раз в год."
+                            android:text="Готический квартал манит туристов со всего света узкими улочками и колоритными кафе. В глубине района на площади Короля (Plaça del Rei) спряталась резиденция королей Арагона — средневекового государства, существовавшего на территории современных Каталонии и северо-восточных областей Испании. "
                             android:textAlignment="viewStart"
                             android:textSize="20sp" />
 
                         <ImageView
-                            android:id="@+id/imageView3"
-                            android:layout_width="380dp"
-                            android:layout_height="200dp"
-                            app:srcCompat="@drawable/imagesbt" />
+                            android:id="@+id/gymimagesdop3"
+                            android:layout_width="396dp"
+                            android:layout_height="206dp"
+                            android:layout_gravity="center"
+                            android:foregroundGravity="center_vertical|center"
+                            app:srcCompat="@drawable/otkvartal3" />
                     </LinearLayout>
                 </ScrollView>
 
