@@ -21,5 +21,6 @@ public class KorolDvorAlcasarActivity extends svo {
             return insets;
         });
         findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , SpanyRazdelActivity.class));
+        onEnter("Королеский дворец Алькасар");
     }
 }

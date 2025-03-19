@@ -126,12 +126,25 @@
 
                 <Button
                     android:id="@+id/_nazad"
-                    android:layout_width="match_parent"
+                    android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:insetLeft="80dp"
+                    android:layout_gravity="left"
+                    android:insetLeft="20dp"
                     android:insetTop="20dp"
-                    android:insetRight="80dp"
+                    android:insetRight="0dp"
                     android:text="назад" />
+
+                <Button
+                    android:id="@+id/visit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:insetLeft="20dp"
+                    android:insetTop="20dp"
+                    android:insetRight="0dp"
+                    android:text="Не посещено" />
+
 
             </FrameLayout>
 

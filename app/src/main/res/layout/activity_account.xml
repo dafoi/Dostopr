@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:srcCompat="@drawable/original"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/accout_email" />
+
+            <TextView
+                android:id="@+id/account_email_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="23dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center|left"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/account_quit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="30dp"
+                android:text="quit" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/account_visited" />
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="80dp"
+                android:gravity="center"
+                android:text="Очистить"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/_nazad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:insetLeft="80dp"
+                android:insetTop="0dp"
+                android:insetRight="80dp"
+                android:insetBottom="45dp"
+                android:text="назад" />
+
+            <TextView
+                android:id="@+id/visited_places"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="120dp"
+                android:text="ads"
+                android:textSize="34sp" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

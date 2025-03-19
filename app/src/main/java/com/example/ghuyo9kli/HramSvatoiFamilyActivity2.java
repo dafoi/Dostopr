@@ -21,5 +21,6 @@ public class HramSvatoiFamilyActivity2 extends svo {
             return insets;
         });
         findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , SpanyRazdelActivity.class));
+        onEnter("Храм Святого Семейства");
     }
 }

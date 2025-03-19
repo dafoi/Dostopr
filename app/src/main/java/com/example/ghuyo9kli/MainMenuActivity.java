@@ -29,11 +29,13 @@ public class MainMenuActivity extends svo {
     bindButtons();
     }
     public void bindButtons(){
+
         findViewById(R.id.goAccountButton).setOnClickListener(v->{
                     if(FirebaseAuth.getInstance().getCurrentUser() == null) {
                         startActivity(new Intent(MainMenuActivity.this, LoginActivity.class));
                     }else{
-                        showDialog();
+                        //showDialog();
+                        changeActivity(this, AccountActivity.class);
                     }
                 }
 
@@ -48,26 +50,6 @@ public class MainMenuActivity extends svo {
         });
 
     }
-    private void showDialog() {
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Вы уже вошли в аккаунт!")
-                .setIcon(android.R.drawable.ic_dialog_dialer)
-                .setView(R.layout.dialodg)
-
-              .setPositiveButton((CharSequence) "Подтвердить", (dialog,which) -> {
-                  startActivity(new Intent(MainMenuActivity.this, LoginActivity.class));
-                  FirebaseAuth.getInstance().signOut();
-              })
-
-
-//                    startActivity(new Intent(MainMenuActivity.this, LoginActivity.class));
-//                })
-                .setNegativeButton("Отмена", null)
-                .create();
-
-        AlertDialog dialog = builder.create();
-        dialog.show();
-    }
 
 }

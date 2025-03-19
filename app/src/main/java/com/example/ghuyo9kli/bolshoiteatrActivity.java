@@ -1,6 +1,7 @@
 package com.example.ghuyo9kli;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +21,10 @@ public class bolshoiteatrActivity extends svo {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , RusisaActivity.class));
+        findViewById(R.id._nazad).setOnClickListener(v -> changeActivity(this, RusisaActivity.class));
+
+        onEnter("Большой театр");
+
     }
+
 }

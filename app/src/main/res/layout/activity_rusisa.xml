@@ -18,13 +18,13 @@
 
         <ImageView
             android:id="@+id/фон"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/original" />
 
         <ImageView
             android:id="@+id/фон_фон"
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="725dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/desain6" />
@@ -101,7 +101,7 @@
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="10dp"
-                                                app:srcCompat="@drawable/bbbolshoiteatr" />
+                                                app:srcCompat="@drawable/bolsoiteatr" />
 
                                             <ImageView
                                                 android:id="@+id/MyseiPicaso"

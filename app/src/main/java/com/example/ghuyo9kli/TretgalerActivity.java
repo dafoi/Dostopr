@@ -21,5 +21,6 @@ public class TretgalerActivity extends svo {
             return insets;
         });
         findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , RusisaActivity.class));
+        onEnter("Третьяковская галерея");
     }
 }

@@ -16,6 +16,7 @@ import java.util.TimerTask;
 
 public class MainActivity extends svo {
 
+    public static String[] visited_places = {"лмао", "амог"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +33,7 @@ public class MainActivity extends svo {
             public void run() {
                 // Переход на MainActivity
                 changeActivity(MainActivity.this, MainMenuActivity.class);
+                //changeActivity(MainActivity.this, AccountActivity.class);
             }
         }, 3000); // Задержка 3 секунды
 

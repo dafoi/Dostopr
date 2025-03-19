@@ -21,5 +21,6 @@ public class HramSpasNaKroviActivity extends svo {
             return insets;
         });
         findViewById(R.id._nazad).setOnClickListener(v->changeActivity(this , SpanyRazdelActivity.class));
+        onEnter("Храм-Спас-На-Крови");
     }
 }
